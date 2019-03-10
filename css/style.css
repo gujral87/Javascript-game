@@ -1,0 +1,142 @@
+
+body{
+
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: url('../images/bg.png');
+    color: #ffda00;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.instruction li {
+    margin-bottom: 15px;
+    font-size: 10px;
+    line-height: 24px;
+    text-transform: lowercase;
+}
+
+#gameCanvas {
+    width: 505px;
+    height:606px;
+}
+.form-control {
+    background: #1e1e1e;
+    border: 1px solid #000;
+    box-shadow: inset 0 0 10px #0c0c0c;
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    color: #ffda00;
+}
+.form-control:hover,
+.form-control:focus {
+    outline:none;
+    border-color:#000;
+    box-shadow: inset 0 0 10px #0c0c0c;
+}
+h1 {
+    
+    margin-top: 0px;
+    font-size: 50px;
+    border-bottom: 1px dashed;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 20px;
+    font-size: 12px;
+    letter-spacing: .5em;
+}
+
+h4 {
+    margin: 15px 0;
+}
+.userName {
+    text-transform: uppercase;
+}
+.btn-default {
+    margin:20px 0;
+    background: none;
+    border-color: #ffda00;
+    color:  #ffda00;
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:active:focus,
+.btn-default:focus {
+    background: #ffda00;
+    color: #333;
+    outline: none;
+    border-color:#ffda00;
+}
+
+.playerSelect img{
+    cursor: pointer;
+    position: relative;
+}
+.playerSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+.playerSelect li{
+    background: #1e1e1e;
+    border: 1px solid #000000;
+    box-shadow: inset 0 0 10px #0c0c0c;
+    width: 40%;
+    margin: 5%;
+    position: relative;
+    cursor: pointer;
+}
+.playerSelect li:hover {
+    box-shadow: inset 0px 100px 80px 0 #000;
+}
+.playerSelect li.active:before {
+    content:'\f058';
+    font-family: fontawesome;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -15px;
+    font-size: 30px;
+}
+
+
+
+.sectionFour {
+    display: inline-block;
+}
+.lost {
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.sectionTwo {
+
+}
+.scoreBoard {
+        margin-top: 50px;
+}
+
+.scoreBoard h4 {
+    margin-bottom: 50px;
+    font-size: 12px;
+    letter-spacing: 1em;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    padding: 30px;
+    margin: 0;
+}
+.scoreBoard h4:last-child {
+    border-top:0;
+}
+
+.scoreBoard h4 span {
+        font-size: 75px;
+    display: block;
+    margin: 15px;
+}
